@@ -1,0 +1,180 @@
+:root {
+
+    --main-background-color: #EAF6F6;
+
+    --main-color-h: #66BFBF;
+    
+    --alt-color-h: #11999E;
+
+    --main-color-text: #40514E;
+
+    --hr-color: #dbdbdb;
+
+    --main-font-h: 'Sacramento', cursive;
+    --secondary-font-h: 'Montserrat', sans-serif;
+
+
+    --main-font-text: 'Merriweather', serif;
+
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>> BODY <<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+body{
+   margin: 0; 
+   text-align: center;
+   color: var(--main-color-text);
+   font-family: var(--main-font-text);
+}
+
+h1{
+    color: var(--main-color-h);
+    margin: 50 auto 0 auto;
+    margin-bottom: 0;
+    font-family: var(--main-font-h);
+    font-size: 5rem;
+}
+
+h2{
+    color: var(--main-color-h);
+    font-weight: normal;
+    font-size: 2.5rem;
+    font-family: var(--secondary-font-h);
+}
+
+h3{
+    color: var(--alt-color-h);
+    font-family: var(--secondary-font-h)
+}
+
+p{
+    line-height: 2;
+}
+
+a{
+    color: var(--alt-color-h);
+    font-family: var(--secondary-color-h);
+    text-decoration: none;
+}
+
+hr {
+    width: 4%;
+    border: none;
+    border-top: 5px dotted var(--hr-color);
+    margin: 100px auto;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>> TOP <<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.top-container{
+    padding-top: 100px;
+    position: relative;
+    background-color: var(--main-background-color);
+}
+
+.top-container span {
+    text-decoration: underline;
+}
+
+/* .top-cloud{
+    position: absolute;
+    right: 19rem;
+    top: 3.125rem;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 19rem;
+    bottom: 19rem;
+} */
+
+.land {
+    display: block;
+    margin: auto;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>> MID <<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.mid-container{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.profile img{
+    height: 160px;
+    width: 160px;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.skill-row img {
+    width: 25%;
+}
+
+.first-img{
+    margin-right: 30px;
+    float: left;
+    background-color: var(--main-color-h);
+    border-radius: 88px;
+}
+
+.second-img{
+    margin-left: 30px;
+    float: right;
+    background-color: var(--main-color-h);
+    border-radius: 88px;
+}
+
+.skills img{
+    width: 160px;
+    height: 160px;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px auto;
+}
+
+.btn {
+    border-radius: 18px;
+    color: white;
+    padding: 15px 32px;
+    background-image: linear-gradient(to right, #11cdd4, #11999e);    
+}
+
+.contact-me a:hover {
+    background-image: linear-gradient(to right, #30e3cb, #2bc4ad);    
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>> BOT <<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.bottom-container{
+    padding-top: 2.125rem;
+    padding-bottom: 2.125rem;
+    background-color: #66BFBF;
+}
+
+
+.bottom-container a {
+    margin: 10px 20px;
+}
+
+.bottom-container a:hover {
+    color: var(--main-background-color);
+}
+
+.bottom-container p {
+    color: var(--main-background-color);
+    margin-top: 22px;
+    font-size: 0.75rem;
+}
