@@ -10,7 +10,10 @@
 
 ## 💻 Project
 
-Made this personal website using only HTML/CSS. Big thank you to Angela Yu and her course of Web Development.
+Made this personal website using only HTML/CSS. 
+
+
+Big thank you to Angela Yu and her course of Web Development.
 
 > Web Development Course [Angela Yu](https://www.udemy.com/share/101qYw3@GvtEEvrCOED3CWUy5KewbgDTt52LMkblKVgavaXcdIkaraA8gY6b2zCbRl32_dH8/)
 
